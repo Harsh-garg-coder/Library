@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="prototype.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href='#' id='logo'>Harsh Library</a></li>
+            <li id='navhome'><a href='#' >Home</a></li>
+        </ul>
+        <div id='rightnav'>
+            <input type="text" id='navsearch' placeholder='Search'>
+            <button id='navbtn'>Search</button>
+        </div>
+    </nav>
+    <!-- main content -->
+    <div id="container">
+        <h1>Welcome to Harsh Library</h1>
+        <div id=addbookborder>
+            <form action="" id='form'>
+                <div id="namediv" class='margin'>
+                    <label for="name">Name:</label>
+                    <input type="text" id='name'>
+                </div>
+                <div id="authordiv" class='margin'>
+                    <label for="author">Author:</label>
+                    <input type="text" id='author'  >
+                </div>
+                <div id="typediv" class='margin'>
+                    <label for="type">Type:</label>
+                    Adventure
+                    <input type="radio" name='type' id="adventure">
+                    
+                    Romantic
+                    <input type="radio" name='type' id="romantic">
+                    
+                    Thrill
+                    <input type="radio" name='type'  id="thrill">
+
+                </div>
+                <div id="buttondiv">
+                    <button id='addbtn'>Issue Book</button>
+                </div>
+
+            </form>
+        </div>
+        <h1 id='yourbooks'>Your Books</h1>
+        <div id='table'>
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Book Name</th>
+                        <th>Author</th>
+                        <th>Type</th>
+                    </tr>
+                </thead>
+                <tbody id='tablebody'>
+                    
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+    <script src="prototype.js"></script>
+</body>
+</html>

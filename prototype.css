@@ -1,0 +1,143 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Baloo Paaji 2', cursive;
+}
+
+/* navigation bar */
+nav{
+    position:sticky;
+    top:0px;
+    background-color:black;
+    
+}
+nav ul{
+    display:flex;
+    list-style:none;
+}
+nav ul li{
+    margin:10px;
+    
+}
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+#logo{
+    font-size:1.5rem;
+}
+#navhome{
+    margin-top:18px;
+}
+#rightnav{
+    position:absolute;
+    top:18px;
+    right:30px;
+    
+}
+#rightnav input{
+    width:150px;
+    height:20px;
+    border-radius:8px;
+    outline:none;
+    padding-left:8px;
+}
+#navbtn{
+    width:60px;
+    /* height:18px; */
+    
+    font-size:0.8rem;
+    border-radius:8px;
+    cursor:pointer;
+    outline:none;
+}
+#navbtn:hover{
+    background-color:wheat;
+}
+
+/* main section */
+#container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+}
+#addbookborder{
+    
+    border:2px solid gray;
+    padding: 20px 40px;
+    font-size:1.2rem;
+}
+#namediv label{
+    margin-right:70px;
+}
+#authordiv label{
+    margin-right:62px;
+}
+#typediv label{
+    margin-right:75px;
+}
+#container input{
+    width:320px;
+    border-radius:5px;
+    outline:none;
+    height:25px;
+    padding-left:7px;
+    font-size:0.8rem;
+}
+#typediv input{
+    width:50px;
+}
+
+#buttondiv button{
+    margin-left:200px;
+    width:100px;
+    height:40px;
+    border-radius:8px;
+    font-size:0.9rem;
+    background-color:black;
+    color:white;
+    outline:none;
+}
+#buttondiv button:hover{
+    background-color:rgb(100,100,100);
+}
+#table{
+    display:flex;
+    justify-content:center;
+}
+
+table{
+    border-collapse: collapse;
+    margin:25px 0px;
+    font-size:1rem;
+    min-width:1000px;
+
+}
+table thead th{
+    background-color:green;
+    color:white;
+    text-align:left;
+    font-weight:bold;
+}
+table th,table td{
+    padding:20px;
+}
+table tbody tr{
+    border-bottom:2px solid grey;
+}
+table tbody tr:last-of-type{
+    border-bottom:2px solid green;
+}
+table tbody tr:nth-of-type(even){
+    background-color:whitesmoke;
+    color:green;
+}
+#yourbooks{
+    margin-top:20px;
+}
+/* utility classes */
+.margin{
+    margin-top:30px;
+    margin-bottom:30px;
+}
